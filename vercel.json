@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/brand-activation/:path*",
+      "destination": "https://advan-brand-activation.vercel.app/brand-activation/:path*"
+    },
+    {
+      "source": "/outdoor-advertising/:path*",
+      "destination": "https://advan-outdoor-ads.vercel.app/outdoor-advertising/:path*"
+    }
+  ]
+}
