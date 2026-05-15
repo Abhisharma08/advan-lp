@@ -68,7 +68,7 @@ export default function LandingPage() {
 
           <div className="flex items-center gap-4">
             <ScrollToLeadButton className="bg-secondary px-6 font-bold text-white hover:bg-secondary/90">
-              BOOK A FREE CONSULTATION
+              Enquire Now!
             </ScrollToLeadButton>
           </div>
         </div>
@@ -150,7 +150,10 @@ export default function LandingPage() {
         </section>
 
           {/* CLIENTS */}
-          <section className="w-full overflow-hidden bg-white py-14">
+          <section
+            className="w-full overflow-hidden bg-muted py-14"
+            style={deferredSectionStyle}
+          >
             <div className="container mx-auto max-w-7xl px-4 text-center">
               
               <h2 className="mb-3 text-3xl font-bold text-primary">
@@ -205,175 +208,183 @@ export default function LandingPage() {
             </div>
           </section>
 
-        {/* ABOUT */}
-        <section
-          className="w-full bg-white py-20"
-          style={deferredSectionStyle}
-        >
-          <div className="container mx-auto max-w-7xl px-4">
-            <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
-              <div className="relative h-[400px] overflow-hidden rounded-2xl shadow-2xl">
-                <Image
-                  src={studentImg?.imageUrl || DEFAULT_PLACEHOLDER}
-                  alt="Retail Branding"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-              </div>
+{/* ABOUT */}
+<section
+  className="w-full bg-white py-20"
+  style={deferredSectionStyle}
+>
+  <div className="container mx-auto max-w-7xl px-4">
+    <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
 
-              <div className="space-y-6">
-                <SectionHeader
-                  title="Strategy. Creativity. Execution. Come First."
-                  subtitle={
-                    <>
-                      At AD Vantage, we focus on what truly drives store and
-                      brand growth — visibility, experience, and consumer
-                      connection.
-                    </>
-                  }
-                  centered={false}
-                />
+      {/* IMAGE */}
+      <div className="order-2 relative h-[400px] overflow-hidden rounded-2xl shadow-2xl lg:order-1">
+        <Image
+          src={studentImg?.imageUrl || DEFAULT_PLACEHOLDER}
+          alt="Retail Branding"
+          fill
+          className="object-cover"
+          sizes="(max-width: 1024px) 100vw, 50vw"
+        />
+      </div>
 
-                <ul className="space-y-4">
-                  {[
-                    "Strategy over guesswork",
-                    "Visibility over assumptions",
-                    "Consumer experience over generic campaigns",
-                  ].map((item) => (
-                    <li
-                      key={item}
-                      className="flex items-center gap-3 font-medium text-primary"
-                    >
-                      <ShieldCheck className="h-6 w-6 text-secondary" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
+      {/* CONTENT */}
+      <div className="order-1 space-y-6 lg:order-2">
+        <SectionHeader
+          title="Strategy. Creativity. Execution. Come First."
+          subtitle={
+            <>
+              At AD Vantage, we focus on what truly drives store and
+              brand growth — visibility, experience, and consumer
+              connection.
+            </>
+          }
+          centered={false}
+        />
 
-                <p className="mt-4 inline-block border-b-2 border-secondary pb-1 text-lg font-bold text-primary">
-                  We build brand presence, not just advertisements.
-                </p>
+        <ul className="space-y-4">
+          {[
+            "Strategy over guesswork",
+            "Visibility over assumptions",
+            "Consumer experience over generic campaigns",
+          ].map((item) => (
+            <li
+              key={item}
+              className="flex items-center gap-3 font-medium text-primary"
+            >
+              <ShieldCheck className="h-6 w-6 text-secondary" />
+              {item}
+            </li>
+          ))}
+        </ul>
 
-                <p className="mt-2 text-lg leading-relaxed text-primary">
-                  Every solution we create is designed to make your store
-                  unmissable and your customer’s experience unforgettable.
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
+        <p className="mt-4 inline-block border-b-2 border-secondary pb-1 text-lg font-bold text-primary">
+          We build brand presence, not just advertisements.
+        </p>
 
-        {/* BRAND IMPACT */}
-        <section
-          className="w-full bg-muted py-20"
-          style={deferredSectionStyle}
-        >
-          <div className="container mx-auto max-w-7xl px-4">
-            <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
-              <div className="space-y-6">
-                <SectionHeader
-                  title="Real Retail Solutions. Real Brand Impact."
-                  subtitle="Brands work with AD Vantage to create retail spaces that improve visibility, customer engagement, and in-store experience."
-                  centered={false}
-                />
+        <p className="mt-2 text-lg leading-relaxed text-primary">
+          Every solution we create is designed to make your store
+          unmissable and your customer’s experience unforgettable.
+        </p>
+      </div>
 
-                <ul className="space-y-4">
-                  {[
-                    "Better retail visibility",
-                    "Improved customer engagement",
-                    "Stronger brand recall",
-                    "End-to-end retail execution",
-                  ].map((item) => (
-                    <li
-                      key={item}
-                      className="flex items-center gap-3 font-medium text-primary"
-                    >
-                      <ShieldCheck className="h-6 w-6 text-secondary" />
-                      {item}
-                    </li>
-                  ))}
-                </ul>
-              </div>
+    </div>
+  </div>
+</section>
 
-              <div className="relative h-[400px] overflow-hidden rounded-2xl shadow-2xl">
-                <Image
-                  src={brandingImg?.imageUrl || DEFAULT_PLACEHOLDER}
-                  alt="Retail branding showcase"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-              </div>
-            </div>
-          </div>
-        </section>
+{/* BRAND IMPACT */}
+<section
+  className="w-full bg-muted py-20"
+  style={deferredSectionStyle}
+>
+  <div className="container mx-auto max-w-7xl px-4">
+    <div className="grid grid-cols-1 items-center gap-16 lg:grid-cols-2">
 
-        {/* MARKET SECTION */}
-        <section
-          className="w-full bg-white py-20"
-          style={deferredSectionStyle}
-        >
-          <div className="container mx-auto max-w-7xl px-4">
-            <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2">
-              
-              {/* LEFT IMAGE */}
-              <div className="relative h-96 overflow-hidden rounded-2xl shadow-2xl">
-                <Image
-                  src={brandingImg?.imageUrl || DEFAULT_PLACEHOLDER}
-                  alt="Retail Growth"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                />
-              </div>
+      {/* CONTENT */}
+      <div className="order-1 space-y-6 lg:order-1">
+        <SectionHeader
+          title="Real Retail Solutions. Real Brand Impact."
+          subtitle="Brands work with AD Vantage to create retail spaces that improve visibility, customer engagement, and in-store experience."
+          centered={false}
+        />
 
-              {/* RIGHT CONTENT */}
-              <div className="space-y-6">
-                <SectionHeader
-                  title="Your Market Is Growing. Is Your Brand Keeping Up?"
-                  subtitle="India’s retail market is growing faster than ever."
-                  centered={false}
-                />
+        <ul className="space-y-4">
+          {[
+            "Better retail visibility",
+            "Improved customer engagement",
+            "Stronger brand recall",
+            "End-to-end retail execution",
+          ].map((item) => (
+            <li
+              key={item}
+              className="flex items-center gap-3 font-medium text-primary"
+            >
+              <ShieldCheck className="h-6 w-6 text-secondary" />
+              {item}
+            </li>
+          ))}
+        </ul>
+      </div>
 
-                <ul className="list-inside list-disc space-y-2 text-lg text-muted-foreground marker:text-secondary">
-                  <li>
-                    <span className="text-slate-600">
-                      Consumer markets continue to expand rapidly
-                    </span>
-                  </li>
+      {/* IMAGE */}
+      <div className="order-2 relative h-[400px] overflow-hidden rounded-2xl shadow-2xl lg:order-2">
+        <Image
+          src={brandingImg?.imageUrl || DEFAULT_PLACEHOLDER}
+          alt="Retail branding showcase"
+          fill
+          className="object-cover"
+          sizes="(max-width: 1024px) 100vw, 50vw"
+        />
+      </div>
 
-                  <li>
-                    <span className="text-slate-600">
-                      Strong retail visibility helps brands outperform competitors
-                    </span>
-                  </li>
+    </div>
+  </div>
+</section>
 
-                  <li>
-                    <span className="text-slate-600">
-                      In-store branding plays a major role in purchase decisions
-                    </span>
-                  </li>
-                </ul>
+{/* MARKET SECTION */}
+<section
+  className="w-full bg-white py-20"
+  style={deferredSectionStyle}
+>
+  <div className="container mx-auto max-w-7xl px-4">
+    <div className="grid grid-cols-1 items-center gap-10 lg:grid-cols-2">
 
-                <p className="mt-4 inline-block border-b-2 border-secondary pb-1 text-lg font-bold text-primary">
-                  Retail Presence = Business Growth
-                </p>
+      {/* IMAGE */}
+      <div className="order-2 relative h-96 overflow-hidden rounded-2xl shadow-2xl lg:order-1">
+        <Image
+          src={brandingImg?.imageUrl || DEFAULT_PLACEHOLDER}
+          alt="Retail Growth"
+          fill
+          className="object-cover"
+          sizes="(max-width: 1024px) 100vw, 50vw"
+        />
+      </div>
 
-                <p className="text-lg text-muted-foreground">
-                  The right retail branding strategy helps your brand reach,
-                  engage, and convert customers at the point of decision.
-                </p>
-              </div>
+      {/* CONTENT */}
+      <div className="order-1 space-y-6 lg:order-2">
+        <SectionHeader
+          title="Your Market Is Growing. Is Your Brand Keeping Up?"
+          subtitle="India’s retail market is growing faster than ever."
+          centered={false}
+        />
 
-            </div>
-          </div>
-        </section>
+        <ul className="list-inside list-disc space-y-2 text-lg text-muted-foreground marker:text-secondary">
+          <li>
+            <span className="text-slate-600">
+              Consumer markets continue to expand rapidly
+            </span>
+          </li>
+
+          <li>
+            <span className="text-slate-600">
+              Strong retail visibility helps brands outperform competitors
+            </span>
+          </li>
+
+          <li>
+            <span className="text-slate-600">
+              In-store branding plays a major role in purchase decisions
+            </span>
+          </li>
+        </ul>
+
+        <p className="mt-4 inline-block border-b-2 border-secondary pb-1 text-lg font-bold text-primary">
+          Retail Presence = Business Growth
+        </p>
+
+        <p className="text-lg text-muted-foreground">
+          The right retail branding strategy helps your brand reach,
+          engage, and convert customers at the point of decision.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
         {/* SERVICES */}
-        <section
-          className="w-full bg-white py-20"
-          style={deferredSectionStyle}
-        >
+          <section
+            className="w-full bg-muted py-20"
+            style={deferredSectionStyle}
+          >
           <div className="container mx-auto max-w-7xl px-4">
             <SectionHeader
               title="What We Do For Your Brand"
@@ -420,7 +431,7 @@ export default function LandingPage() {
               ].map((item) => (
                 <div
                   key={item.title}
-                  className="flex gap-4 rounded-xl border border-muted bg-white p-6 transition-all hover:border-secondary/100 hover:bg-muted/30"
+                  className="flex gap-4 rounded-xl border border-white/60 bg-white/80 p-6 backdrop-blur-sm transition-all hover:border-secondary/100 hover:bg-white"
                 >
                   <div className="h-fit rounded-lg bg-primary/5 p-3 text-primary">
                     {item.icon}
