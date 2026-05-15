@@ -308,7 +308,7 @@ export default function LandingPage() {
       {/* IMAGE */}
       <div className="order-2 relative h-[400px] overflow-hidden rounded-2xl shadow-2xl lg:order-2">
         <Image
-          src={brandingImg?.imageUrl || DEFAULT_PLACEHOLDER}
+          src="https://res.cloudinary.com/dw9v7jjrq/image/upload/v1778844599/WhatsApp_Image_2026-05-15_at_4.48.21_PM_zp8l0l.jpg"
           alt="Retail branding showcase"
           fill
           className="object-cover"
@@ -331,7 +331,7 @@ export default function LandingPage() {
       {/* IMAGE */}
       <div className="order-2 relative h-96 overflow-hidden rounded-2xl shadow-2xl lg:order-1">
         <Image
-          src={brandingImg?.imageUrl || DEFAULT_PLACEHOLDER}
+          src="https://res.cloudinary.com/dw9v7jjrq/image/upload/v1778844598/WhatsApp_Image_2026-05-15_at_4.48.34_PM_fwdsic.jpg"
           alt="Retail Growth"
           fill
           className="object-cover"
@@ -485,12 +485,12 @@ export default function LandingPage() {
         {
           tag: "STARTER",
           title: "Retail Branding Package",
-          desc: "Complete in-store branding and retail experience.",
+          desc: "Create a strong and consistent retail brand presence.",
           features: [
-            "Retail branding strategy",
-            "Store branding execution",
-            "Customer experience focus",
-            "End-to-end implementation",
+            "Retail identity development",
+            "Consistent in-store branding",
+            "Enhanced customer experience",
+            "Complete retail implementation",
           ],
           cta: "Enquire Now",
         },
@@ -498,12 +498,12 @@ export default function LandingPage() {
         {
           tag: "POPULAR",
           title: "In-Shop Branding & Store Design",
-          desc: "Branded interiors from wall graphics to displays.",
+          desc: "Build engaging retail environments that attract attention.",
           features: [
-            "Wall graphics & displays",
-            "In-store branding systems",
-            "Custom retail visuals",
-            "Improved customer attention",
+            "Wall graphics & retail displays",
+            "Branded in-store environments",
+            "Custom visual installations",
+            "Improved customer engagement",
           ],
           cta: "Enquire Now",
         },
@@ -511,12 +511,12 @@ export default function LandingPage() {
         {
           tag: "LAYOUT",
           title: "Store Layout & Space Design",
-          desc: "Space planning that guides and converts customers.",
+          desc: "Design retail spaces that guide and convert customers.",
           features: [
-            "Optimized customer flow",
-            "Strategic space planning",
-            "Conversion-focused layouts",
-            "Better shopping experience",
+            "Smart customer flow planning",
+            "Strategic retail space utilization",
+            "Conversion-driven layouts",
+            "Seamless shopping experience",
           ],
           cta: "Enquire Now",
         },
@@ -524,12 +524,12 @@ export default function LandingPage() {
         {
           tag: "DISPLAY",
           title: "Visual Merchandising Package",
-          desc: "Display solutions that improve customer recall.",
+          desc: "Improve product visibility and customer recall.",
           features: [
-            "Display system design",
-            "Product visibility improvement",
-            "Customer engagement focus",
-            "Brand recall enhancement",
+            "Creative display concepts",
+            "Improved product visibility",
+            "Stronger customer attention",
+            "Better brand recall",
           ],
           cta: "Enquire Now",
         },
@@ -537,12 +537,12 @@ export default function LandingPage() {
         {
           tag: "FULL STACK",
           title: "Full Retail Brand Strategy",
-          desc: "End-to-end strategy from research to execution.",
+          desc: "End-to-end retail strategies focused on business growth.",
           features: [
-            "Retail research & planning",
-            "Brand positioning strategy",
-            "Execution management",
-            "Growth-focused retail systems",
+            "Retail market research",
+            "Brand growth planning",
+            "End-to-end execution support",
+            "Scalable retail solutions",
           ],
           cta: "Enquire Now",
         },
