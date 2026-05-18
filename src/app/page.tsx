@@ -331,7 +331,7 @@ export default function LandingPage() {
       {/* IMAGE */}
       <div className="order-2 relative h-96 overflow-hidden rounded-2xl shadow-2xl lg:order-1">
         <Image
-          src="https://res.cloudinary.com/dw9v7jjrq/image/upload/v1779083209/HOGAR_HighRes_Image_1__page-0001.jpg_mxwev2.jpg"
+          src="https://res.cloudinary.com/dw9v7jjrq/image/upload/v1779084124/WhatsApp_Image_2026-05-18_at_11.29.20_AM_bvholl.jpg"
           alt="Retail Growth"
           fill
           className="object-cover"
