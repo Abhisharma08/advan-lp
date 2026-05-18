@@ -1,18 +1,6 @@
 import Image from "next/image";
-import {
-  ArrowRight,
-  BadgeDollarSignIcon,
-  Hammer,
-  Lightbulb,
-  Megaphone,
-  PanelsTopLeft,
-  ShieldCheck,
-  ShoppingBag,
-  Signpost,
-  Sofa,
-  SparkleIcon,
-  Star,
-} from "lucide-react";
+import Script from "next/script";
+import { ArrowRight, BadgeDollarSignIcon, Hammer, Lightbulb, Megaphone, PanelsTopLeft, ShieldCheck, ShoppingBag, Signpost, Sofa, SparkleIcon, Star,} from "lucide-react";
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
