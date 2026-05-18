@@ -9,7 +9,7 @@ export const PlaceHolderImages: ImagePlaceholder[] = [
   {
     "id": "hero-workspace",
     "description": "Premium graphic design showcase",
-    "imageUrl": "https://res.cloudinary.com/ddqqlfsjp/image/upload/v1774678825/P1509595_1_ag1d3h.jpg",
+    "imageUrl": "",
     "imageHint": "creative design"
   },
   {

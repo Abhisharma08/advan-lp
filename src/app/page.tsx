@@ -306,9 +306,9 @@ export default function LandingPage() {
       </div>
 
       {/* IMAGE */}
-      <div className="order-2 relative h-[400px] overflow-hidden rounded-2xl shadow-2xl lg:order-2">
+      <div className="order-2 relative h-[500px] overflow-hidden rounded-2xl shadow-2xl lg:order-2">
         <Image
-          src="https://res.cloudinary.com/dw9v7jjrq/image/upload/v1778844599/WhatsApp_Image_2026-05-15_at_4.48.21_PM_zp8l0l.jpg"
+          src="https://res.cloudinary.com/dw9v7jjrq/image/upload/v1779086928/WhatsApp_Image_2026-05-18_at_12.18.15_PM_gomsb9.jpg"
           alt="Retail branding showcase"
           fill
           className="object-cover"
@@ -331,7 +331,7 @@ export default function LandingPage() {
       {/* IMAGE */}
       <div className="order-2 relative h-96 overflow-hidden rounded-2xl shadow-2xl lg:order-1">
         <Image
-          src="https://res.cloudinary.com/dw9v7jjrq/image/upload/v1778844598/WhatsApp_Image_2026-05-15_at_4.48.34_PM_fwdsic.jpg"
+          src="https://res.cloudinary.com/dw9v7jjrq/image/upload/v1779084124/WhatsApp_Image_2026-05-18_at_11.29.20_AM_bvholl.jpg"
           alt="Retail Growth"
           fill
           className="object-cover"
