@@ -50,6 +50,14 @@ export default function LandingPage() {
     containIntrinsicSize: "900px",
   } as const;
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-18160208246"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'AW-18160208246');
+</script>
   return (
     <div className="flex min-h-screen flex-col overflow-x-hidden">
       <nav className="fixed top-0 z-50 w-full overflow-x-hidden border-b bg-white/95 shadow-sm backdrop-blur-md">
