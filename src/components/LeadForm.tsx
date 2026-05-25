@@ -118,7 +118,7 @@ export default function LeadForm({ className }: { className?: string }) {
     <div
       className={`rounded-xl border border-muted bg-white p-6 shadow-2xl md:p-8 ${className}`}
     >
-      <h3 className="mb-2 text-2xl font-headline text-primary">
+      <h3 className="mb-2 text-4xl font-headline font-bold text-secondary">
         Get A Free Retail Branding Consultation
       </h3>
 

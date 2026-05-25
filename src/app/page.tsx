@@ -97,7 +97,7 @@ export default function LandingPage() {
           <div className="container relative z-10 mx-auto max-w-7xl px-4">
             <div className="grid w-full grid-cols-1 items-center gap-8 lg:grid-cols-2 lg:gap-12">
               <div className="w-full space-y-6 text-white">
-                <h1 className="font-headline text-3xl leading-tight text-white drop-shadow-[0_4px_16px_rgba(0,0,0,0.45)] md:text-5xl">
+                <h1 className="font-headline font-medium text-3xl leading-tight text-secondary drop-shadow-[0_4px_16px_rgba(0,0,0,0.45)] md:text-5xl">
                   Retail Branding That Drives Visibility & Engagement
                 </h1>
 
@@ -107,7 +107,47 @@ export default function LandingPage() {
                   attention and in-store engagement.
                 </p>
 
-                <div className="flex max-w-2xl flex-wrap gap-2">
+                              <div className="mt-6 overflow-hidden rounded-xl border border-white/10 bg-primary/90 shadow-xl backdrop-blur-sm">
+                <div className="grid grid-cols-2 divide-x divide-y divide-white/10 md:grid-cols-4 md:divide-y-0">
+
+                  <div className="flex flex-col items-center justify-center px-4 py-4 text-center">
+                    <span className="text-xl font-bold text-white">200+</span>
+                    <span className="text-sm font-medium text-secondary">
+                      Store Branding
+                    </span>
+                  </div>
+
+                  <div className="flex flex-col items-center justify-center px-4 py-4 text-center">
+                    <span className="text-xl font-bold text-white">50+</span>
+                    <span className="text-sm font-medium text-secondary">
+                      Brands
+                    </span>
+                  </div>
+
+                  <div className="flex flex-col items-center justify-center px-4 py-4 text-center">
+                    <span className="text-xl font-bold text-white">48 Hr</span>
+                    <span className="text-sm font-medium text-secondary">
+                      Plan Turnaround
+                    </span>
+                  </div>
+
+                  <div className="flex flex-col items-center justify-center px-4 py-4 text-center">
+                    <span className="text-xl font-bold text-white">Zero</span>
+                    <span className="text-sm font-medium text-secondary">
+                      Middlemen
+                    </span>
+                  </div>
+
+                  {/* <p className="col-span-full mt-4 text-xs text-white/70 text-center">
+                    AD Vantage Integrated Marketing · advanintegrated.in · Landing Page — Final Copy · Prepared by Contentify Tech ·
+                    <br />
+                    contentify.co.in
+                  </p> */}
+                </div>
+              </div>               
+
+
+                {/* <div className="flex max-w-2xl flex-wrap gap-2">
                   {[
                     "Retail Branding Specialist",
                     "Store & Franchise Outlet Branding",
@@ -121,9 +161,9 @@ export default function LandingPage() {
                       <span>{item}</span>
                     </div>
                   ))}
-                </div>
+                </div> */}
 
-                <div className="flex max-w-2xl flex-wrap gap-3">
+                {/* <div className="flex max-w-2xl flex-wrap gap-3">
                   {[
                     "Retail Experience Design",
                     "Visual Merchandising",
@@ -137,11 +177,7 @@ export default function LandingPage() {
                       <span>{item}</span>
                     </div>
                   ))}
-                </div>
-
-                <p className="text-lg italic text-secondary">
-                  BOOK A FREE CONSULTATION
-                </p>
+                </div> */}
               </div>
 
               <div id="lead-form-top">
@@ -421,11 +457,6 @@ export default function LandingPage() {
                   desc: "Merchandising solutions that improve customer engagement.",
                 },
                 {
-                  icon: <Sofa />,
-                  title: "Retail Store Interior Designing",
-                  desc: "Interiors that reflect your brand identity.",
-                },
-                {
                   icon: <Hammer />,
                   title: "Materials & Fabrications",
                   desc: "High-quality retail fabrication solutions designed to strengthen brand presence and customer experience.",
@@ -654,17 +685,13 @@ export default function LandingPage() {
             <div className="mx-auto max-w-4xl">
               <div className="grid grid-cols-1 items-center gap-12 lg:grid-cols-2">
                 <div className="space-y-6">
-                  <h2 className="font-headline text-3xl text-primary">
+                  <h2 className="font-headline text-3xl text-secondary md:text-4xl">
                     Are you ready to put your brand where it belongs?
                   </h2>
 
                   <p className="text-lg text-muted-foreground">
                     Get expert retail branding strategies tailored to your store
                     and brand goals.
-                  </p>
-
-                  <p className="text-base font-semibold text-secondary">
-                    BOOK A FREE CONSULTATION
                   </p>
                 </div>
 
