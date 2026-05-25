@@ -22,9 +22,9 @@ import SectionHeader from "@/components/SectionHeader";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 
 export const metadata = {
-  title: "Innovative Branding Ideas | AD Vantage Integrated Marketing",
+  title: "Shop & Store Branding Company in Bangalore | AD Vantage",
   description:
-    "AD Vantage helping businesses to connect with customers in a meaningful way by being technology-enabled, data-driven, and creative marketing techniques.",
+    "Store signage & outlet branding company in Bangalore. From single shops to 50+ outlet chains — fascia design, in-store branding & signage. 120+ projects delivered. Get a free quote.",
 };
 
 const LOGO_URL =
@@ -331,7 +331,7 @@ export default function LandingPage() {
       {/* IMAGE */}
       <div className="order-2 relative h-96 overflow-hidden rounded-2xl shadow-2xl lg:order-1">
         <Image
-          src="https://res.cloudinary.com/dw9v7jjrq/image/upload/v1779084124/WhatsApp_Image_2026-05-18_at_11.29.20_AM_bvholl.jpg"
+          src="https://res.cloudinary.com/dw9v7jjrq/image/upload/v1779083209/HOGAR_HighRes_Image_1__page-0001.jpg_mxwev2.jpg"
           alt="Retail Growth"
           fill
           className="object-cover"

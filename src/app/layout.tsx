@@ -16,9 +16,10 @@ const belleza = Belleza({
   variable: '--font-headline',
 });
 
-export const metadata: Metadata = {
-  title: 'Innovative Branding Ideas | AD Vantage Integrated Marketing',
-  description: 'AD Vantage helping businesses to connect with customers in a meaningful way by being technology-enabled, data-driven, and creative marketing techniques.',
+export const metadata = {
+  title: "Shop & Store Branding Company in Bangalore | AD Vantage",
+  description:
+    "Store signage & outlet branding company in Bangalore. From single shops to 50+ outlet chains — fascia design, in-store branding & signage. 120+ projects delivered. Get a free quote.",
 };
 
 export default function RootLayout({
