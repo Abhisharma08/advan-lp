@@ -1,18 +1,6 @@
 import Image from "next/image";
-import {
-  ArrowRight,
-  BadgeDollarSignIcon,
-  Hammer,
-  Lightbulb,
-  Megaphone,
-  PanelsTopLeft,
-  ShieldCheck,
-  ShoppingBag,
-  Signpost,
-  Sofa,
-  SparkleIcon,
-  Star,
-} from "lucide-react";
+import Script from "next/script";
+import { ArrowRight, BadgeDollarSignIcon, Hammer, Lightbulb, Megaphone, PanelsTopLeft, ShieldCheck, ShoppingBag, Signpost, Sofa, SparkleIcon, Star,} from "lucide-react";
 
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -52,6 +40,20 @@ export default function LandingPage() {
 
   return (
     <div className="flex min-h-screen flex-col overflow-x-hidden">
+      <Script
+  src="https://www.googletagmanager.com/gtag/js?id=AW-18160208246"
+  strategy="afterInteractive"
+/>
+
+<Script id="google-ads" strategy="afterInteractive">
+  {`
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-18160208246');
+  `}
+</Script>
       <nav className="fixed top-0 z-50 w-full overflow-x-hidden border-b bg-white/95 shadow-sm backdrop-blur-md">
         <div className="container mx-auto flex h-20 max-w-7xl items-center justify-between px-4">
           <div className="flex items-center gap-2" aria-label="AD Vantage Logo">
@@ -331,7 +333,7 @@ export default function LandingPage() {
       {/* IMAGE */}
       <div className="order-2 relative h-96 overflow-hidden rounded-2xl shadow-2xl lg:order-1">
         <Image
-          src="https://res.cloudinary.com/dw9v7jjrq/image/upload/v1779083209/HOGAR_HighRes_Image_1__page-0001.jpg_mxwev2.jpg"
+          src="https://res.cloudinary.com/dw9v7jjrq/image/upload/v1779084124/WhatsApp_Image_2026-05-18_at_11.29.20_AM_bvholl.jpg"
           alt="Retail Growth"
           fill
           className="object-cover"
