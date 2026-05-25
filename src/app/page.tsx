@@ -77,7 +77,7 @@ export default function LandingPage() {
       </nav>
 
       <main className="w-full pb-24 pt-20 lg:pb-0">
-        {/* HERO SECTION */}
+        {/* HERO SECTION CODE */}
         <section className="relative w-full overflow-hidden bg-primary py-20 lg:py-20">
           <div className="absolute inset-0">
             <Image

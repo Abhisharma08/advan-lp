@@ -19,7 +19,7 @@ const belleza = Belleza({
 export const metadata: Metadata = {
   title: "Shop & Store Branding Company in Bangalore | AD Vantage",
   description:
-    "Store signage & outlet branding company in Bangalore. From single shops to 50+ outlet chains — fascia design, in-store branding & signage. 120+ projects delivered. Get a free quote.",
+    "Store signage & outlet branding company in Bangalore. From single shops to 50+ outlet chains - fascia design, in-store branding & signage. 120+ projects delivered. Get a free quote.",
 };
 
 export default function RootLayout({
